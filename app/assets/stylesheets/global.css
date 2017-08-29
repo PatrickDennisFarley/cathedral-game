@@ -1,0 +1,18 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 25vw;
+  width: 40vw;
+  margin: 10%;
+  padding: 10%;
+  background-color: black;
+  color: white;
+}
+
+
+.board-cell {
+  height: 8.5%;
+  width: 8.5%;
+  border: 2px solid teal;
+  border-width: ;
+}
