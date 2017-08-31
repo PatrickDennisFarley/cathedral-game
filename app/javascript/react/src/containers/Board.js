@@ -1,5 +1,10 @@
 import React from 'react';
 import BoardTile from '../components/BoardTile';
+import 'babel-polyfill';
+import store from '../stores/store'
+
+console.log('Initial State of Store');
+console.log(store.getState());
 
 class Board extends React.Component {
   constructor(props){
